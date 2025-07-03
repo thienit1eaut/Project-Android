@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.learningenglishapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Base.Theme.LearningEnglishApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CorrectwordTest"/>
+        <activity android:name=".CorrectWordHighScore"/>
+        <activity android:name=".EnglishquizTest"/>
+        <activity android:name=".CorrectwordThongbao"/>
+        <activity android:name=".Englishquiz"/>
+        <activity android:name=".Correctword"/>
+        <activity android:name=".EnglishQuizHighScore"/>
+        <activity android:name=".EnglishquizResult"/>
+        <activity android:name=".CorrectwordResult"/>
+        <activity android:name=".Homepage"/>
+        <activity android:name=".Register"/>
+        <activity android:name=".Entername"/>
+        <activity android:name=".Playername"/>
+        <activity android:name=".HuongDanQuiz"/>
+        <activity android:name=".HuongDanWord"/>
+        <activity android:name=".PersonalProfile"/>
+    </application>
+</manifest>
